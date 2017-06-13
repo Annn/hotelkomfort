@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg_1.jpg') no-repeat center center fixed;
+    background: url('../img/bg_violet_1.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -145,7 +145,7 @@ footer p {
         margin: 0;
         padding: 0 0 40px;
         text-align: center;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-shadow: 2px 0px 2px #0F3452;   /* 174f7d was rgba(0,0,0,0.5)*/
         text-transform: uppercase;
         font-size: 1.25em;
         font-weight: 400;
@@ -208,6 +208,13 @@ footer p {
         padding-left: 23px;
         padding-right: 23px;
     }
+    .list-group-item {                       /*  !!!!! */
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
 }
 
 @media screen and (min-width:1200px) {
@@ -236,9 +243,15 @@ footer p {
         font-size: 18px;
         margin-left: 0;
     }
+/*
+    needs testing on the phone screen
+    .text {
+        margin-top: 20px;
+    }
+*/
 }
 
-/*    Brand glyphicons size*/
+/*    Brand glyphicons size     */
 
 #star1, #star2, #star3 {
     font-size: 50%;
@@ -270,11 +283,6 @@ footer p {
 
 
 
-/*.media-md #bs-example-navbar-collapse-1,
-.media-lg #bs-example-navbar-collapse-1,
-{
-    width: 100%;
-}*/
 
     /*  Logo picture    */
 
@@ -284,10 +292,27 @@ footer p {
     margin-bottom: 20px;
 }
 
+/*    Space between glyphicons (stars)  */
+
 .glyphicon {
     margin-right: 10px;
 }
 
-#logo-img {
-    
+/*    Glyphicons stars on main page under the carousel H1   */
+
+#glyph1 {
+    display: inline;
+}
+#glyph2, #glyph3 {
+    display: inline;
+}
+
+/*
+.brand-text {
+    display: inline;
+}
+*/
+
+#logo {
+    display: inline;
 }
