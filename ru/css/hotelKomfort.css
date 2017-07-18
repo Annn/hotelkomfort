@@ -237,8 +237,7 @@ footer p {
     margin-top: 20px;
 }
 
-/*    Text align for the text in a contact section on collapsed veiw  (NOT WORKING!!!)  */
-
+/*    Text align for the text in a contact section on collapsed veiw    */
 @media  (max-width 991px){
     p.text-contact {
         margin-top: 10px !important;
