@@ -457,3 +457,16 @@ footer p {
 p.text-glyphs {
     margin-bottom: 5px;
 }
+
+.img-flag {
+    position: relative;
+    display: inline;
+    margin-right: 10px;
+}
+
+.language-flags {
+    display: inline;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}

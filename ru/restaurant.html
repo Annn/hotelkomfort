@@ -9,13 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Restauracja - Hotel Komfort - Krzywaczka</title>
+    <title>Ресторан - Отель Komfort - Кшивачка</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/hotelKomfort.css" rel="stylesheet">
+    <link href="../css/hotelKomfort.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -32,21 +32,17 @@
 
 <body>
     <header>
-        <!--   Button for language changing -->
-        <div class="dropdown dropdown-lang">
-            <a href="#" button class="btn btn-default dropdown-toggle btn-default-lang" type="button" id="dropdownLangMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                PL
-                <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu dropdown-lang-change" aria-labelledby="dropdownLangMenu">
-                <li><a href="#">RU</a></li>
-                <li><a href="#">EN</a></li>
-            </ul>
+        <!--   Language flags -->
+        <div class="col-sm hidden-sm-down language-flags">
+            <a href="../restaurant.html" title="версия польская"><img class="img-responsive img-flag" src="../img/flags/pl.png"></a>
+            <a href="#" title="версия российская"><img class="img-responsive img-flag" src="../img/flags/ru.png"></a>
+            <a href="#" title="версия английская"><img class="img-responsive img-flag" src="../img/flags/uk.png"></a>
+            
         </div>
 
         <!--    Logo picture    -->
         <div class="brand">
-            <a href="index.html"><img id="logo" class="img-responsive img-center" src="img/logoColor_170x640.png" alt=""></a>
+            <a href="index.html"><img id="logo" class="img-responsive img-center" src="../img/logoColor_170x640.png" alt=""></a>
         </div>
         <div class="address-bar">Krzywaczka 991 | tel +48 12-444-54-54 | gsm +48 60-939-73-85</div>
 
@@ -68,19 +64,19 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="index.html">O hotelu</a>
+                            <a href="index.html">Отель</a>
                         </li>
                         <li>
-                            <a href="rooms.html">Pokoje</a>
+                            <a href="rooms.html">Номера</a>
                         </li>
                         <li class="active">
-                            <a href="restaurant.html">Restauracja</a>
+                            <a href="restaurant.html">Ресторан</a>
                         </li>
                         <li>
-                            <a href="conference.html">Konferencje</a>
+                            <a href="conference.html">Конференции</a>
                         </li>
                         <li>
-                            <a href="contact.html">Kontakt</a>
+                            <a href="contact.html">Контакт</a>
                         </li>
                     </ul>
                 </div>
@@ -97,35 +93,35 @@
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">Komfort
-                        <strong>restauracja</strong>
+                        <strong>ресторан</strong>
                     </h2>
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/rest_slide-1_2.png" alt="">
-                    <p class="text">Serdecznie zapraszamy do restauracji <strong>Komfort Restaurant</strong>, usytuowanej w naszym hotelu. Restauracja specjalizuje się w kuchni międzynarodowej. Niezależnie od formy spotkania, nasza kuchnia to gwarancja zadowolenia jej uczestników. Jasne wnętrza, ekskluzywna zastawa w połączeniu z kunsztem  kulinarnym kucharz i wykwintnymi  propozycjami w karcie menu  przyciągają jak magnes z dalekich zakątków Małopolski, a nierzadko - kraju.</p>
-                    <p>Restauracja  jest czynna codziennie od godziny 11:00 do 22:00, zamówienia przyjmowane są do 21:30.</p>
-                    <p>Goście mogą także skorzystać z obsługi w pokoju.</p>
+                    <img class="img-responsive img-border img-full" src="../img/rest_slide-1_2.png" alt="">
+                    <p class="text">Сердечно приглашаем в ресторан <strong>Komfort Ресторан</strong>, расположенный в нашем отеле. Ресторан специализируется на международной кухне. Вне зависимости от формы встречи, наша кухня - это гарантия удовлетворения ее участников. Светлые интерьеры, эксклюзивная сервировка в сочетании с кулинарным мастерством повара и изысканными блюдами в меню притягивают клиенов не только из Малопольского воеводства, но и всей Польши.</p>
+                    <p>Ресторан открыт ежедневно с 11:00 до 22:00, заказы принимаются до 21:30.</p>
+                    <p>Гости могут также воспользоваться сервисом обслуживания в номере.</p>
 <!--                    <a href="#" class="btn btn-default btn-lg">Read More</a>-->
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/rest_slide-2.png" alt="">
+                    <img class="img-responsive img-border img-full" src="../img/rest_slide-2.png" alt="">
                     
-                    <p class="text"><strong>Ślub</strong> jest jednym z najważniejszych wydarzeń w życiu i dlatego uroczystość ta powinna pozostać w pamięci jako jedyna i niepowtarzalna. Z myślą o tym szczególnym wydarzeniu <strong>Hotel Komfort***</strong> przygotował dla Państwa bogatą ofertę weselną. Przestronna sala bankietowa pozwala na organizację przyjęcia weselnego do 140 osób. Sala - klimatyzowana, gustowna, utrzymana w ciepłej i jasnej kolorystyce.</p>
-                    <p> Dajemy Państwu możliwość wyboru jej aranżacji - z wykorzystaniem stołów prostokątnych. Z przyjemnością podejmiemy się organizacji tak ważnej uroczystości, wsłuchując się we wszystkie Państwa uwagi i sugestie dotyczące scenariusza imprezy oraz menu. Mając na uwadze różnorodne potrzeby i oczekiwania przygotowaliśmy kilka wariantów menu weselnego.</p>
-                    <p>Z <strong>Hotelem Komfort***</strong> rozpoczniecie Państwo nowy etap życia w niepowtarzalnym stylu.</p>
+                    <p class="text"><strong>Свадьба</strong> является одним из самых важных событий в жизни и поэтому эта церемония должна остатьсяв памяти как единственная и неповторимая. С мыслью об этом выдающемся событии <strong>Отель Komfort***</strong> приготовил для Вас широкое свадебное предложение. Просторный банкетный зал позволяет организовать свадебный прием до 140 человек. Зал - климатизирован, обставлен со вкусом,  оформлен в теплых и светлых тонах.</p>
+                    <p> Предлагаем Вам возможность выбора его обустройства - с использованием прямоугольных столов. С удовольствием возьмемся за организацию столь важного тожества, прислушиваясь ко всем Вашим пожеланиям и предложениям относительно сценария праздника и меню. Имея ввиду разнообразные потребности и ожидания, наши повара разработали несколько вариантов свадебного меню.</p>
+                    <p>С <strong>Отелем Komfort***</strong> Вы начнете новый этап жизни в неповторимом стиле!</p>
                     <!--<a href="#" class="btn btn-default btn-lg">Read More</a>-->
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/rest_slide-3.png" alt="">
+                    <img class="img-responsive img-border img-full" src="../img/rest_slide-3.png" alt="">
                     <!--<h2>Post Title
                         <br>
                         <small>October 13, 2013</small>
                     </h2>-->
-                    <p class="text">Zapraszamy także do organizacji <strong>bankietów</strong>, wszelkiego rodzaju  <strong>imprez</strong> okolicznościowych (studniówki, komunie, chrzciny, rocznice ślubu, imieniny). Dopełnimy wszelkich starań aby spotkanie w naszym hotelu było niezapomnianym przeżyciem!</p>
-                    <p>W celu uzyskania szczegółowych informacji prosimy o kontakt z recepcją hotelu.</p>
+                    <p class="text">Приглашаем также к организации <strong>банкетов</strong>, разного рода памятных <strong>празднований</strong> (крестины, именины, выпускные, годовщины свадеб и т.д.). Мы приложим все усилия, чтоб торжество в нашем отеле осталось в Вашей памяти незабываемым событием!</p>
+                    <p>С целью получения детальной информации просим связаться с рецепцией отеля.</p>
                     <!--<a href="#" class="btn btn-default btn-lg">Read More</a>-->
                     <hr>
                 </div>
@@ -154,10 +150,10 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="../js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
 </body>
 
